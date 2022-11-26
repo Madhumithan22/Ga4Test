@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">          <!--CSS-->
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kite+One&display=swap" rel="stylesheet"> <!--Google fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>     <!--Bootstrap icons-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pharmacy site</title>
+  </head>
+
+  <body>
+    <!-- Navbar section -->
+    <nav 
+    class="navbar fixed-top navbar-expand-md navbar-light fill" 
+    style="background-color: #fff"
+    >
+      <a class="navbar-brand" href="#header"
+      ><img class="nav-logo" src="cropped logo.png" alt=""
+      /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto px-5">
+          <li class="nav-item ">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="#appointment"
+              >Appointments</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#tests "
+              >Tests</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#footer"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header section -->
+    <section id="header">
+      <div class="row">
+        <div class="col-lg-6 " style="text-align: center">
+          <img class="header-image"src="cropped logo.png" alt="" />
+        </div>
+        <div class="col-lg-6 align-self-center" style="text-align: center">
+          <h1 class="display-5">SHIFA HOME CARE & POLY CLINIC</h1>
+          
+          <p class="blockquote" style="font-family: 'Kite One', sans-serif ;">"Service to humanity is the best work of God."</p>
+        </div>
+      </div>
+    </section>  
+
+    <!-- Appointment form section -->
+    <section id="appointment" >
+      <div class="row justify-content-evenly">
+        <div class="col-lg-5 col-md-5 col-sm-12 align-self-center" style="text-align: center;">
+          <h3>Book an appointment</h3>
+          <p></p>
+          <i class="bi bi-chevron-double-right" id="arrow"></i>
+          <i class="bi bi-chevron-double-right" id="arrow"></i>
+          <i class="bi bi-chevron-double-right" id="arrow"></i>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12  align-self-center" style="padding: 0% 6% 0% 10%;" >
+          <form>
+            <div class="form-group my-3">
+              <label for="exampleInputEmail1">Enter your name:</label>
+              <input
+                type="text"
+                class="form-control appointment-name"
+                id="exampleInputEmail1"
+              />
+            </div>
+            <div class="form-group my-3">
+              <label for="exampleInputPassword1">Mobile number:</label>
+              <input type="text" class="form-control appointment-number" placeholder="+91 " />
+            </div>
+            <div class="form-group my-3">
+              <label for="exampleInputPassword1">Choose date:</label>
+              <input type="text" class="form-control appointment-date"  id="picker" placeholder="dd/mm/yyyy"/>
+            </div>
+            <div class="row">
+              <div class="col" style="text-align: center;">                
+                <a href="mailto:habibabee1983@gmail.com" class="btn button email me-3" tabindex="0" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="hover"  data-bs-content="Mail Shifa Health Care(habibabee1983@gmail.com)">Mail</a>
+                <button class="button phone ms-3" tabindex="0" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="click hover"  data-bs-content="Call Shifa Health Care (+91 97915 63982)">Call</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Services section -->
+    <section id="services">
+      <h3>Services</h3>
+      <hr />
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="card mx-auto shadow-lg" style="width: 75%">
+              <img
+                src="https://media.istockphoto.com/id/1296176562/photo/caregiver-assist-senior-woman-at-home.jpg?s=612x612&w=0&k=20&c=UiHsEPH-avDi9_sK3D3BSAiEdqPr45Pg5qGOprVR5BA="
+                class="w-100 border img-fluid img-fluid"
+                alt="..."
+              />
+              <div class="card-body placeholder-wave placeholder-wave">
+                <h5 class="card-title">
+                  Senior Citizen Care & Adoption
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="card mx-auto shadow-lg" style="width: 75%">
+              <img
+                src="https://media.istockphoto.com/id/1150047420/photo/newborn-baby-sleep-on-mother-hands-new-born-girl-smiling-and-sleeping.jpg?s=612x612&w=0&k=20&c=lTUj_KPu8pyjHMHQiXguTdLSJxuBHwrb10HFoJW2aYE="
+                class="w-100 border-bottom img-fluid"
+                alt="..."
+              />
+              <div class="card-body placeholder-wave placeholder-wave">
+                <h5 class="card-title">New Born Baby Care</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="card mx-auto shadow-lg" style="width: 75%">
+              <img
+                src="https://media.istockphoto.com/id/1396861259/photo/smiling-friendly-doctor-visiting-a-bedridden-patient.jpg?s=612x612&w=0&k=20&c=cvzh-QzkRMpfNs37dOSUrsw14XU8JPMOEScwTduoD5k="
+                class="w-100 border-bottom img-fluid"
+                alt="..."
+              />
+              <div class="card-body placeholder-wave">
+                <h5 class="card-title">Bedridden Patients Care</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="card mx-auto shadow-lg" style="width: 75%">
+              <img
+                src="https://media.istockphoto.com/id/918879768/photo/well-sort-out-these-sprains-and-strains.jpg?s=612x612&w=0&k=20&c=YsKuHxulwn6dDc4qp8JmPKxhA7MEAmD-SbcmzpCg3bg="
+                class="w-100 border-bottom img-fluid"
+                alt="..."
+              />
+              <div class="card-body placeholder-wave">
+                <h5 class="card-title">Physiotherapy Available</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="card mx-auto shadow-lg" style="width: 75%">
+            <img
+              src="https://media.istockphoto.com/id/1211350526/photo/young-doctor-adjusting-blood-pressure-gauge-on-senior-womans-hand-during-house-call-visit.jpg?s=612x612&w=0&k=20&c=P8Xb2_59BwXePJlBU7J_8j5EPkMujH3ab7eoM7UIT54="
+              class="w-100 border-bottom img-fluid"
+              alt="..."
+            />
+            <div class="card-body placeholder-wave">
+              <h5 class="card-title">Home Visiting Doctors!!</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="card mx-auto shadow-lg" style="width: 75%">
+            <img
+              src="https://media.istockphoto.com/id/1183370025/photo/blood-test-tube.jpg?s=612x612&w=0&k=20&c=jU542YWi7sWqrnlZIsloxeR4QU08btCYthQf222OdgU="
+              class="w-100 border-bottom img-fluid"
+              alt="..."
+            />
+            <div class="card-body placeholder-wave">
+              <h5 class="card-title">Blood collection for Tests in Homes</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-evenly">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="card mx-auto shadow-lg" style="width: 75%">
+            <img
+              src="https://media.istockphoto.com/id/171589788/photo/emergency.jpg?s=612x612&w=0&k=20&c=zU384Of0YT51w7ljDan66EmJbMusunSXbQX7xoVAsiY="
+              class="w-100 border-bottom img-fluid"
+              alt="..."
+            />
+            <div class="card-body placeholder-wave">
+              <h5 class="card-title">24x7 Ambulance Available</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tests">
+      <h3>Tests</h3>
+      <hr>
+      <div class="accordion container w-75" id="accordionDefault">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultOne">
+            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseDefaultOne" aria-expanded="false" aria-controls="collapseDefaultOne">
+              Lipid Profile
+            </button>
+          </h2>
+          <div id="collapseDefaultOne" class="accordion-collapse collapse show" aria-labelledby="headingDefaultOne" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">LDL Cholestrol - Direct</li>
+                <li class="list-group-item">LDL/HDL Ratio</li>
+                <li class="list-group-item">VLDL Cholestrol</li>
+                <li class="list-group-item">TC/HDL Cholestrol Ratio</li>
+                <li class="list-group-item">Non - HDL Cholestrol</li>
+                <li class="list-group-item">Total Cholestrol</li>
+                <li class="list-group-item">HDL Cholestrol Direct</li>
+                <li class="list-group-item">Tryglycerides</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultTwo">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDefaultTwo" aria-expanded="false" aria-controls="collapseDefaultTwo">
+              Liver profile
+            </button>
+          </h2>
+          <div id="collapseDefaultTwo" class="accordion-collapse collapse" aria-labelledby="headingDefaultTwo" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Protein Total</li>
+                <li class="list-group-item">Serum Albumin/Globulin Ratio</li>
+                <li class="list-group-item">Aspartate Aminotransferase(SGOT)</li>
+                <li class="list-group-item">Bilirubin(Direct)</li>
+                <li class="list-group-item">Bilirubin(Indirect)</li>
+                <li class="list-group-item">Bilirubin(Total)</li>
+                <li class="list-group-item">Albumin - Serum</li>
+                <li class="list-group-item">Alkaline Phosphatase</li>
+                <li class="list-group-item">Alanine Transaminase(SGPT)</li>
+                <li class="list-group-item">Serum Globulin</li>
+                <li class="list-group-item">Gamma Glutamyl Transferase(GGT)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDefaultThree" aria-expanded="false" aria-controls="collapseDefaultThree">
+              Kidney Profile
+            </button>
+          </h2>
+          <div id="collapseDefaultThree" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Calcium</li>
+                <li class="list-group-item">Uric Acid</li>
+                <li class="list-group-item">Bun/Sr.Creatinine Ratio</li>
+                <li class="list-group-item">Creatinine Serum</li>
+                <li class="list-group-item">Blood Urea Nitrogen</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDefaultFour" aria-expanded="false" aria-controls="collapseDefaultThree">
+              Iron Deficiency Profile
+            </button>
+          </h2>
+          <div id="collapseDefaultFour" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Total Iron Binding Capacity(TIBC)</li>
+                <li class="list-group-item">% Transferin Saturation</li>
+                <li class="list-group-item">Iron</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDefaultFive" aria-expanded="false" aria-controls="collapseDefaultThree">
+              Thyroid Profile
+            </button>
+          </h2>
+          <div id="collapseDefaultFive" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Thyroid Stimulating Hormone(TSH)</li>
+                <li class="list-group-item">Total Thyroxine(T4)</li>
+                <li class="list-group-item">Total Triiodothyronine(T3)</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDefaultThree">
+            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseDefaultSix" aria-expanded="false" aria-controls="collapseDefaultThree">
+              Serum Electrolytes
+            </button>
+          </h2>
+          <div id="collapseDefaultSix" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree" data-bs-parent="#accordionDefault">
+            <div class="accordion-body">
+              <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Chloride</li>
+                <li class="list-group-item">Pottasium</li>
+                <li class="list-group-item">Sodium</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <h5>Contact us at</h5>
+        <hr  style="margin:2% 30% ;">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <i class="fa-solid fa-phone" style="font-size: 140%;margin-bottom: 5%;"></i><p>+91 97915 63982</p>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <i class="fa-solid fa-location-dot" style="font-size: 140%; margin-bottom: 5%;"></i><p>No.3, Sabthagiri Garden Main Road, Solaithandavan Kuppam Street(Near Chinnatha School), Muthialpet, Puducherry - 605003</p>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+            <i class="fa-solid fa-envelope" style="font-size: 140%; margin-bottom: 5%;"></i><p>habibabee1983@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>                                          <!--Jquery for Date and time-->
+    <script src="https://kit.fontawesome.com/e20b1b2c0a.js" crossorigin="anonymous"></script>                       <!--Font awesome icons-->
+    <script src="script.js"></script>
+  </body>
+</html>
