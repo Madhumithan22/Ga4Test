@@ -68,6 +68,8 @@ body {
 }
 
 .button {
+  height: 100%;
+  width: 25%;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
   position: relative;
