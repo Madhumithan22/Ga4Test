@@ -1,6 +1,12 @@
 body {
   font-size: 100%;
 }
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 80%;
+  }
+}
+
 
 .navbar,
 .navbar-toggler {
